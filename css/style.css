@@ -1,7 +1,22 @@
+/* Adicionando fontes as fontes que serão usadas */
+@font-face {
+  font-family: inter;
+  src: url(/design/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(/design/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(/design/fonts/Roboto-Regular.ttf);
+}
+
 /* Configurações Gerais */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
