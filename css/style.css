@@ -61,3 +61,16 @@ main #bons-habitos p {
   font-family: var(--content);
   font-size: 1em;
 }
+
+/* Section - Sobre nós */
+#sobre-nos h3 {
+  color: var(--titles);
+  font-family: var(--titles);
+  font-size: 2em;
+}
+
+#sobre-nos p {
+  color: var(--content);
+  font-family: var(--content);
+  font-size: 1em;
+}
