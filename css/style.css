@@ -32,6 +32,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background);
+  font-family: 16px;
+  overflow-x: hidden;
 }
 
 /* Section */
@@ -45,4 +47,17 @@ section #main-title h1 {
 section #main-title p {
   color: var(--content);
   font-family: var(--content);
+}
+
+/* Main */
+main #bons-habitos h5 {
+  color: var(--titles);
+  font-family: var(--titles);
+  font-size: 1.5em;
+}
+
+main #bons-habitos p {
+  color: var(--content);
+  font-family: var(--content);
+  font-size: 1em;
 }
