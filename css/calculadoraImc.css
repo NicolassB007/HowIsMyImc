@@ -36,41 +36,34 @@ body {
   overflow-x: hidden;
 }
 
-/* Section */
-
-/* '+' faz o Css pegar o primeiro h1 dessa "rota" */
-section #main-title h1 {
+/* Article */
+article h1 {
   color: var(--titles);
   font-family: var(--titles);
 }
 
-section #main-title p {
+article #imc-tabela h3 {
+  color: var(--titles);
+  font-family: var(--titles);
+}
+
+article #imc-tabela p {
   color: var(--content);
   font-family: var(--content);
 }
 
 /* Main */
-main #bons-habitos h5 {
+main h1 {
   color: var(--titles);
   font-family: var(--titles);
-  font-size: 1.5em;
 }
 
-main #bons-habitos p {
+main form label {
   color: var(--content);
   font-family: var(--content);
-  font-size: 1em;
 }
 
-/* Section - Sobre nós */
-#sobre-nos h3 {
+main #result {
   color: var(--titles);
   font-family: var(--titles);
-  font-size: 2em;
-}
-
-#sobre-nos p {
-  color: var(--content);
-  font-family: var(--content);
-  font-size: 1em;
 }
