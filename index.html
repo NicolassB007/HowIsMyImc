@@ -17,23 +17,40 @@
     <title>How Is My IMC?</title>
   </head>
   <body>
+    <div class="container"></div>
     <!-- Cabeçalho do site -->
     <header>
       <!-- Área de navegação -->
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container-fluid">
-          <a href="#" class="navbar-brand">Início</a>
+          <a href="#" class="navbar-brand">
+            <img
+              src="design/img/img-logo.jpg"
+              alt=""
+              height="80"
+              class="rounded"
+            />
+          </a>
 
-          <div class="collapse navbar-collapse">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navBarMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navBarMenu">
             <ul class="navbar-nav m-auto">
               <li class="nav-item m-2">
-                <a href="#" class="nav-link">O que é o IMC</a>
-              </li>
-              <li class="nav-item m-2">
-                <a href="#" class="nav-link"> Sobre nós </a>
+                <a href="#imc-desc" class="nav-link">O que é o IMC</a>
               </li>
               <li class="nav-item m-2">
                 <a href="#" class="nav-link">Bons hábitos</a>
+              </li>
+              <li class="nav-item m-2">
+                <a href="#" class="nav-link"> Sobre nós </a>
               </li>
             </ul>
             <button class="btn">
@@ -44,7 +61,35 @@
           </div>
         </div>
       </nav>
+      <!-- Área de navegação - FIM -->
     </header>
+    <!-- Cabeçalho do site - FIM -->
+
+    <!-- Section de introdução -->
+    <section class="m-2">
+      <div class="row" id="imc-desc">
+        <div class="col-6 mt-auto mb-auto" id="main-title">
+          <h1 class="fst-italic text-center">IMC, indicador de saúde</h1>
+          <p class="fs-5">
+            Pense no IMC como um "termômetro" inicial da sua saúde. O IMC ajuda
+            a identificar se uma pessoa está dentro de uma faixa de peso
+            considerada saudável, ou se está caminhando para a desnutrição ou
+            para a obesidade.
+          </p>
+        </div>
+        <div class="col-6">
+          <img
+            src="design/img/img-classificacao-imc.jpg"
+            alt=""
+            class="img-fluid rounded-3"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Section de introdução - FIM -->
+
+    <!-- Área contendo o assunto principal - Bons hábitos -->
+    <main></main>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

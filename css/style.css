@@ -34,4 +34,15 @@ body {
   background-color: var(--background);
 }
 
-/* Header */
+/* Section */
+
+/* '+' faz o Css pegar o primeiro h1 dessa "rota" */
+section #main-title h1 {
+  color: var(--titles);
+  font-family: var(--titles);
+}
+
+section #main-title p {
+  color: var(--content);
+  font-family: var(--content);
+}
