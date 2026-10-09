@@ -81,7 +81,7 @@
     <!-- Conteudo principal - Form -->
     <main class="container-fluid m-5">
       <h1 class="text-center">Calcule seu IMC</h1>
-      <form>
+      <form id="formulario">
         <div class="row">
           <div class="col-6">
             <div>
@@ -104,13 +104,18 @@
               />
             </div>
 
-            <button type="submit" class="btn btn-success mt-4 w-100">
+            <div class="form-text fs-6" id="alerta"></div>
+            <button
+              type="submit"
+              class="btn btn-success mt-4 w-100"
+              id="enviar"
+            >
               Enviar
             </button>
           </div>
           <div class="col-6" id="result">
             <h3 class="text-center">Resultado</h3>
-            <span id="resultCalc"></span>
+            <h6 id="resultCalc" class="text-center mt-5"></h6>
           </div>
         </div>
       </form>
@@ -121,5 +126,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="js/scriptImc.js"></script>
   </body>
 </html>

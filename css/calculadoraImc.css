@@ -67,3 +67,9 @@ main #result {
   color: var(--titles);
   font-family: var(--titles);
 }
+
+main #resultCalc {
+  color: var(--content);
+  font-family: var(--titles);
+  font-size: 1.5em;
+}
